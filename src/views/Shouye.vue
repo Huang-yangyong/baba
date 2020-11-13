@@ -54,10 +54,10 @@
               <span slot="title">基础维护</span>
               </template>
               <el-menu-item-group>
-          <el-menu-item index="1-1">公司维护</el-menu-item>
-          <el-menu-item index="1-2">科室维护</el-menu-item>
-          <el-menu-item index="1-3">支持方式</el-menu-item>
-          <el-menu-item index="1-4">主管部门</el-menu-item>
+          <el-menu-item index="1-1"><router-link tag="div" class="sy" to="/gongsiweihu" style="margin-left:0px;">公司维护</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link tag="div" class="sy" to="/keshiweihu" style="margin-left:0px;">科室维护</router-link></el-menu-item>
+          <el-menu-item index="1-3"><router-link tag="div" class="sy" to="/zhichifangshi" style="margin-left:0px;">支持方式</router-link></el-menu-item>
+          <el-menu-item index="1-4"><router-link tag="div" class="sy" to="/zhuguanbumen" style="margin-left:0px;">主管部门</router-link></el-menu-item>
               </el-menu-item-group>
               </el-submenu>
         </el-menu-item-group>
@@ -69,9 +69,9 @@
         <span slot="title">公告发布</span>
         </template>
         <el-menu-item-group>
-          <el-menu-item index="1-1">项目发布</el-menu-item>
-          <el-menu-item index="1-2">通知发布</el-menu-item>
-          <el-menu-item index="1-3">参考材料</el-menu-item>
+          <el-menu-item index="1-1"><router-link tag="div" class="sy" to="/xiangmufabu" style="margin-left:0px;">项目发布</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link tag="div" class="sy" to="/tongzhifabu" style="margin-left:0px;">通知发布</router-link></el-menu-item>
+          <el-menu-item index="1-3"><router-link tag="div" class="sy" to="/cankaocailiao" style="margin-left:0px;">参考材料</router-link></el-menu-item>
         </el-menu-item-group>        
       </el-submenu>
       <el-submenu index="4">
@@ -80,9 +80,9 @@
         <span slot="title">项目填报</span>
           </template>
           <el-menu-item-group>
-          <el-menu-item index="1-1">资金类填报</el-menu-item>
-          <el-menu-item index="1-2">科技类填报</el-menu-item>
-          <el-menu-item index="1-2">荣誉类填报</el-menu-item>
+          <el-menu-item index="1-1"><router-link tag="div" class="sy" to="/zijinleitianbao" style="margin-left:0px;">资金类填报</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link tag="div" class="sy" to="/kejileitianbao" style="margin-left:0px;">科技类填报</router-link></el-menu-item>
+          <el-menu-item index="1-3"><router-link tag="div" class="sy" to="/ronyuleitianbao" style="margin-left:0px;">荣誉类填报</router-link></el-menu-item>
         </el-menu-item-group>
       </el-submenu>
 
@@ -92,8 +92,8 @@
         <span slot="title">进度管理</span>
           </template>
           <el-menu-item-group>
-          <el-menu-item index="1-1">资金类进度</el-menu-item>
-          <el-menu-item index="1-2">科技类进度</el-menu-item>
+          <el-menu-item index="1-1"><router-link tag="div" class="sy" to="/zijinleijindu" style="margin-left:0px;">资金类进度</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link tag="div" class="sy" to="/kejileijindu" style="margin-left:0px;">科技类进度</router-link></el-menu-item>
         </el-menu-item-group>
       </el-submenu>
 

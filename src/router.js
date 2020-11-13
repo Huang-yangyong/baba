@@ -7,6 +7,18 @@ import caozuorizhi from './views/caozuorizhi.vue'
 import queseguanli from './views/queseguanli.vue'
 import quanxianguanli from './views/quanxianguanli.vue'
 import qiyeguanli from './views/qiyeguanli.vue'
+import gongsiweihu from './views/gongsiweihu.vue'
+import keshiweihu from './views/keshiweihu.vue'
+import zhichifangshi from './views/zhichifangshi.vue'
+import zhuguanbumen from './views/zhuguanbumen.vue'
+import xiangmufabu from './views/index.vue'
+import tongzhifabu from './views/index2.vue'
+import cankaocailiao from './views/index3.vue'
+import zijinleitianbao from './views/zijinleitianbao.vue'
+import kejileitianbao from './views/kejileitianbao.vue'
+import ronyuleitianbao from './views/ronyuleitianbao.vue'
+import zijinleijindu from './views/zijinleijindu.vue'
+import kejileijindu from './views/kejileijindu.vue'
 
 Vue.use(Router)
 
@@ -41,6 +53,66 @@ export default new Router({
                     path: 'qiyeguanli',
                     component: () =>
                         import ( /* webpackChunkName: "about" */ './views/qiyeguanli.vue')
+                },
+                {
+                    path: 'gongsiweihu',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/gongsiweihu.vue')
+                },
+                {
+                    path: 'keshiweihu',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/keshiweihu.vue')
+                },
+                {
+                    path: 'zhichifangshi',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/zhichifangshi.vue')
+                },
+                {
+                    path: 'zhuguanbumen',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/zhuguanbumen.vue')
+                },
+                {
+                    path: 'xiangmufabu',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/index.vue')
+                },
+                {
+                    path: 'tongzhifabu',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/index2.vue')
+                },
+                {
+                    path: 'cankaocailiao',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/index3.vue')
+                },
+                {
+                    path: 'zijinleitianbao',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/zijinleitianbao.vue')
+                },
+                {
+                    path: 'kejileitianbao',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/kejileitianbao.vue')
+                },
+                {
+                    path: 'ronyuleitianbao',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/ronyuleitianbao.vue')
+                },
+                {
+                    path: 'zijinleijindu',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/zijinleijindu.vue')
+                },
+                {
+                    path: 'kejileijindu',
+                    component: () =>
+                        import ( /* webpackChunkName: "about" */ './views/kejileijindu.vue')
                 }
             ]
         },
